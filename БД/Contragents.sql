@@ -23,6 +23,7 @@ create table if not exists Contragents
     contr_type varchar(255),
 	contr_name varchar(255),
     contr_phone varchar(8),
+    contr_work varchar(255),
     contr_address integer,
     constraint foreign key (contr_address) references CitiAddreses (id)
 );
